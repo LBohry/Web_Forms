@@ -1,0 +1,90 @@
+body {
+  background: #3b4465;
+  font-family: "Dancing Script", cursive;
+}
+
+
+
+h1 {
+  margin-top: 50px;
+  padding-top: 75px;
+  position: relative;
+  text-align: center;
+  color: #9c8321;
+  font-size: 37px;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.733);
+  border-radius: 5%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sign_up_wrapper {
+  width: 500px;
+  height: 750px;
+  background-color: rgba(255, 255, 255, 0.733);
+  border-radius: 5%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sign-in-btn {
+  font-size: 25px;
+  padding: 12px 13px;
+  font-family: "Dancing Script", cursive;
+  border-radius: 5%;
+  color: #9c8321;
+  background-color: #c2c5ce; /* check */
+  position: relative; /* check */
+}
+
+.sign-up-btn {
+  font-size: 25px;
+  padding: 12px 13px;
+  font-family: "Dancing Script", cursive;
+  border-radius: 5%;
+  color: #9c8321;
+  background-color: #c2c5ce; /* check */
+  position: relative; /* check */
+}
+
+.sign-in-btn:hover {
+  border: 1px solid black;
+  background: #9c8321;
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.sign-up-btn:hover {
+  border: 1px solid black;
+  background: #9c8321;
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.forget-btn {
+  font-size: 25px;
+  padding: 12px 13px;
+  font-family: "Dancing Script", cursive;
+  border-radius: 5%;
+  color: #3b4465;
+  background-color: #c2c5ce; /* check */
+  position: relative; /* check */
+}
+
+.forget-btn:hover {
+  border: 1px solid black;
+  background: rgb(2, 29, 53);
+  color: aliceblue;
+  transition: 0.5s;
+}
+.input_item {
+  background: #fff;
+  color: #333;
+  padding: 14.5px 0px 15px 9px;
+  border-radius: 5px 0px 0px 5px;
+}
